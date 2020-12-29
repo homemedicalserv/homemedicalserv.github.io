@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48.021126mm"
+   height="47.919296mm"
+   viewBox="0 0 48.021125 47.919296"
+   version="1.1"
+   id="svg36"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="logo-simple.svg"
+   inkscape:export-filename="C:\repos\homemedicalserv-github.io\resources\logo-mediuml.png"
+   inkscape:export-xdpi="33.923702"
+   inkscape:export-ydpi="33.923702">
+  <defs
+     id="defs30" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="195.23724"
+     inkscape:cy="-70.96983"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     fit-margin-top="1.9"
+     fit-margin-bottom="1.9"
+     fit-margin-left="0.7"
+     fit-margin-right="0.7" />
+  <metadata
+     id="metadata33">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-63.679912,-91.034923)">
+    <path
+       d="m 91.113819,118.94833 c 0.08268,-0.0458 0.160417,-0.0969 0.23839,-0.15533 l 1.47529,-0.93195 -5.29e-4,1.74795 c 5.29e-4,5.43557 2.7e-5,10.87186 -2.65e-4,16.30666 l 5.3e-4,0.9584 -0.956919,5.3e-4 c -4.326785,6e-5 -8.643965,-2.6e-4 -12.967812,-1.8e-4 l -0.956892,-2.4e-4 2.65e-4,-0.95911 c 5.29e-4,-2.52646 2.11e-4,-5.0522 -2.65e-4,-7.56987 -3.885089,2.42473 -8.585359,4.10586 -13.083804,4.96838 -0.352028,-0.0101 -0.778272,-0.45035 -0.190791,-0.78518 2.182706,-0.69051 4.029921,-1.69646 5.812498,-2.75109 9.366568,-5.99905 17.927876,-14.41926 25.491759,-22.56686 l 0.675507,-0.72396 0.699506,0.70046 c 4.320113,4.26532 8.646003,8.53379 12.962383,12.80046 l 0.68837,0.68165 -0.68514,0.68233 c -1.31244,1.31435 -2.63228,2.62917 -3.95229,3.94915 l -0.67837,0.67889 -0.6796,-0.67913 c -3.31507,-3.32121 -6.643428,-6.64215 -9.959133,-9.96561 -1.274763,1.24783 -2.590007,2.45224 -3.932502,3.61368 z"
+       style="fill:#334c8d;fill-rule:evenodd;stroke-width:0.264583"
+       id="path10" />
+    <path
+       d="m 96.673165,107.8666 c -7.771501,8.37184 -16.687695,16.84306 -25.75912,22.66588 1.978952,-0.42926 4.784567,-1.85661 7.17259,-3.42313 0.419285,-0.22717 0.799809,0.12893 0.815578,0.6485 0,2.7233 -2.65e-4,5.43554 -2.65e-4,8.15665 4.323821,5.3e-4 8.641742,0.001 12.969268,2.4e-4 -5.29e-4,-5.43409 -7.94e-4,-10.86967 -5.29e-4,-16.30598 -3.426646,2.17532 -6.85398,4.34843 -10.279117,6.52306 -0.538797,0.24953 -1.081563,-0.44177 -0.5715,-0.81912 5.179881,-3.36074 9.712034,-7.04636 13.701449,-11.00233 0.177271,-0.15748 0.463365,-0.17994 0.654632,8e-4 3.431355,3.43217 6.877129,6.87369 10.309169,10.30811 1.32064,-1.31702 2.64115,-2.62962 3.95677,-3.95047 -4.32451,-4.26622 -8.64161,-8.53292 -12.968978,-12.80215 z"
+       style="fill:#e30016;fill-rule:evenodd;stroke-width:0.264583"
+       id="path12" />
+    <path
+       d="m 99.820807,106.92596 6.743413,-5.3e-4 5.3e-4,6.66012 z"
+       style="fill:#334c8d;fill-rule:evenodd;stroke-width:0.264583"
+       id="path14" />
+    <path
+       d="m 66.914763,106.92545 13.917294,8e-4 5.3e-4,-13.991063 12.849093,-2.64e-4 2.12e-4,13.927667 c -4.290352,4.57285 -8.836555,9.16699 -13.673853,13.33664 l -13.093118,-1.6e-4 z"
+       style="fill:#334c8d;fill-rule:evenodd;stroke-width:0.264583"
+       id="path16" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.1898px;line-height:1.25;font-family:sans-serif;fill:#334c8d;fill-opacity:1;stroke:none;stroke-width:0.254743"
+       x="77.791832"
+       y="150.13226"
+       id="text64"
+       transform="scale(1.1961911,0.83598679)"><tspan
+         sodipodi:role="line"
+         id="tspan62"
+         x="77.791832"
+         y="150.13226"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;fill:#334c8d;fill-opacity:1;stroke-width:0.254743" /><tspan
+         sodipodi:role="line"
+         x="77.791832"
+         y="163.77388"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0.226399px;fill:#334c8d;fill-opacity:1;stroke-width:0.254743"
+         id="tspan66">MS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="120.47991"
+       y="125.01562"
+       id="text70"><tspan
+         sodipodi:role="line"
+         id="tspan68"
+         x="120.47991"
+         y="125.01562"
+         style="stroke-width:0.264583" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:11.3838px;line-height:1.25;font-family:sans-serif;fill:#e30016;fill-opacity:1;stroke:none;stroke-width:0.284595"
+       x="75.852058"
+       y="158.28362"
+       id="text899"
+       transform="scale(1.2282332,0.81417761)"><tspan
+         sodipodi:role="line"
+         id="tspan897"
+         x="75.852058"
+         y="158.28362"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Impact;-inkscape-font-specification:Impact;fill:#e30016;fill-opacity:1;stroke-width:0.284595">H</tspan></text>
+  </g>
+</svg>
