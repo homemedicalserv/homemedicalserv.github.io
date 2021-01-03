@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/home-medical/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/home-medical/static/js/main.d0a1409c.chunk.js",
-    "main.js.map": "/home-medical/static/js/main.d0a1409c.chunk.js.map",
-    "runtime-main.js": "/home-medical/static/js/runtime-main.df382c54.js",
-    "runtime-main.js.map": "/home-medical/static/js/runtime-main.df382c54.js.map",
-    "static/js/2.866c3b5e.chunk.js": "/home-medical/static/js/2.866c3b5e.chunk.js",
-    "static/js/2.866c3b5e.chunk.js.map": "/home-medical/static/js/2.866c3b5e.chunk.js.map",
-    "static/js/3.6d6c968e.chunk.js": "/home-medical/static/js/3.6d6c968e.chunk.js",
-    "static/js/3.6d6c968e.chunk.js.map": "/home-medical/static/js/3.6d6c968e.chunk.js.map",
+    "main.css": "/home-medical/static/css/main.8d49ac54.chunk.css",
+    "main.js": "/home-medical/static/js/main.e59279d1.chunk.js",
+    "main.js.map": "/home-medical/static/js/main.e59279d1.chunk.js.map",
+    "runtime-main.js": "/home-medical/static/js/runtime-main.585b5845.js",
+    "runtime-main.js.map": "/home-medical/static/js/runtime-main.585b5845.js.map",
+    "static/js/2.4f10de4e.chunk.js": "/home-medical/static/js/2.4f10de4e.chunk.js",
+    "static/js/2.4f10de4e.chunk.js.map": "/home-medical/static/js/2.4f10de4e.chunk.js.map",
+    "static/js/3.9d6a224c.chunk.js": "/home-medical/static/js/3.9d6a224c.chunk.js",
+    "static/js/3.9d6a224c.chunk.js.map": "/home-medical/static/js/3.9d6a224c.chunk.js.map",
     "index.html": "/home-medical/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/home-medical/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.866c3b5e.chunk.js.LICENSE.txt": "/home-medical/static/js/2.866c3b5e.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/home-medical/static/media/logo.103b5fa1.svg"
+    "static/css/main.8d49ac54.chunk.css.map": "/home-medical/static/css/main.8d49ac54.chunk.css.map",
+    "static/js/2.4f10de4e.chunk.js.LICENSE.txt": "/home-medical/static/js/2.4f10de4e.chunk.js.LICENSE.txt",
+    "static/media/ambulance.eb73810b.mp4": "/home-medical/static/media/ambulance.eb73810b.mp4",
+    "static/media/icofont.min.css": "/home-medical/static/media/icofont.dad3accb.woff",
+    "static/media/logo-full.beca3740.svg": "/home-medical/static/media/logo-full.beca3740.svg",
+    "static/media/services-background.a6bda741.jpg": "/home-medical/static/media/services-background.a6bda741.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.df382c54.js",
-    "static/js/2.866c3b5e.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.d0a1409c.chunk.js"
+    "static/js/runtime-main.585b5845.js",
+    "static/js/2.4f10de4e.chunk.js",
+    "static/css/main.8d49ac54.chunk.css",
+    "static/js/main.e59279d1.chunk.js"
   ]
 }
