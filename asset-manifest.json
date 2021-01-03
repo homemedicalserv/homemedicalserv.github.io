@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/home-medical/static/css/main.8d49ac54.chunk.css",
-    "main.js": "/home-medical/static/js/main.e59279d1.chunk.js",
-    "main.js.map": "/home-medical/static/js/main.e59279d1.chunk.js.map",
-    "runtime-main.js": "/home-medical/static/js/runtime-main.585b5845.js",
-    "runtime-main.js.map": "/home-medical/static/js/runtime-main.585b5845.js.map",
-    "static/js/2.4f10de4e.chunk.js": "/home-medical/static/js/2.4f10de4e.chunk.js",
-    "static/js/2.4f10de4e.chunk.js.map": "/home-medical/static/js/2.4f10de4e.chunk.js.map",
-    "static/js/3.9d6a224c.chunk.js": "/home-medical/static/js/3.9d6a224c.chunk.js",
-    "static/js/3.9d6a224c.chunk.js.map": "/home-medical/static/js/3.9d6a224c.chunk.js.map",
-    "index.html": "/home-medical/index.html",
-    "static/css/main.8d49ac54.chunk.css.map": "/home-medical/static/css/main.8d49ac54.chunk.css.map",
-    "static/js/2.4f10de4e.chunk.js.LICENSE.txt": "/home-medical/static/js/2.4f10de4e.chunk.js.LICENSE.txt",
-    "static/media/ambulance.eb73810b.mp4": "/home-medical/static/media/ambulance.eb73810b.mp4",
-    "static/media/icofont.min.css": "/home-medical/static/media/icofont.dad3accb.woff",
-    "static/media/logo-full.beca3740.svg": "/home-medical/static/media/logo-full.beca3740.svg",
-    "static/media/services-background.a6bda741.jpg": "/home-medical/static/media/services-background.a6bda741.jpg"
+    "main.css": "/static/css/main.6a85f408.chunk.css",
+    "main.js": "/static/js/main.e59279d1.chunk.js",
+    "main.js.map": "/static/js/main.e59279d1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3524fde5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3524fde5.js.map",
+    "static/js/2.4f10de4e.chunk.js": "/static/js/2.4f10de4e.chunk.js",
+    "static/js/2.4f10de4e.chunk.js.map": "/static/js/2.4f10de4e.chunk.js.map",
+    "static/js/3.9d6a224c.chunk.js": "/static/js/3.9d6a224c.chunk.js",
+    "static/js/3.9d6a224c.chunk.js.map": "/static/js/3.9d6a224c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6a85f408.chunk.css.map": "/static/css/main.6a85f408.chunk.css.map",
+    "static/js/2.4f10de4e.chunk.js.LICENSE.txt": "/static/js/2.4f10de4e.chunk.js.LICENSE.txt",
+    "static/media/ambulance.eb73810b.mp4": "/static/media/ambulance.eb73810b.mp4",
+    "static/media/icofont.min.css": "/static/media/icofont.dad3accb.woff",
+    "static/media/logo-full.beca3740.svg": "/static/media/logo-full.beca3740.svg",
+    "static/media/services-background.a6bda741.jpg": "/static/media/services-background.a6bda741.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.585b5845.js",
+    "static/js/runtime-main.3524fde5.js",
     "static/js/2.4f10de4e.chunk.js",
-    "static/css/main.8d49ac54.chunk.css",
+    "static/css/main.6a85f408.chunk.css",
     "static/js/main.e59279d1.chunk.js"
   ]
 }
