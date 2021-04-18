@@ -2,15 +2,17 @@ import React from "react";
 import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
 import "./App.scss";
 import "./fonts/icofont.min.css";
-import { MainNavigation } from "./controls/index";
+import { MainNavigation } from "./components/index";
 import {
 	HomePage,
 	ServicesPage,
 	ProductsPage,
-	AboutUsPage,
+	AboutPage,
+	ContactPage,
 } from "./pages/index";
 
 function App() {
+	console.log(React.version);
 	return (
 		<div className="main-container">
 			<BrowserRouter>
@@ -26,7 +28,10 @@ function App() {
 						<ProductsPage />
 					</Route>
 					<Route path="/despre-noi">
-						<AboutUsPage />
+						<AboutPage />
+					</Route>
+					<Route path="/contact">
+						<ContactPage />
 					</Route>
 					<Route path="/">
 						<Redirect to="/home" />

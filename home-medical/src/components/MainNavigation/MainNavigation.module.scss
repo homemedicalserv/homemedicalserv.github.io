@@ -1,12 +1,13 @@
 @import "../../variables";
 
-.main-navigation {
+.MainNavigation {
 	list-style-type: none;
 	margin: 30px 10px;
 	text-align: justify;
 	position: relative;
+	z-index: 10;
 
-	.logo-container {
+	.logoContainer {
 		width: 150px;
 		height: 150px;
 		display: inline-block;
@@ -26,7 +27,7 @@
 		top: 0px;
 	}
 
-	.main-navigation-panel {
+	.mainNavigationPanel {
 		right: 0;
 		left: 30px;
 		bottom: 0;
@@ -36,11 +37,9 @@
 		border-radius: 50px;
 		background-color: #fff;
 
-		.main-navigation-item {
+		.mainNavigationItem {
 			display: inline-block;
-		}
 
-		.main-navigation-item {
 			a {
 				margin: 15px;
 				text-transform: uppercase;

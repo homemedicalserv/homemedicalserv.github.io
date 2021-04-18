@@ -17,6 +17,8 @@
 		"node-sass": "^4.14.1",
 		"react": "^17.0.1",
 		"react-dom": "^17.0.1",
+		"react-facebook": "^8.1.4",
+		"react-load-script": "0.0.6",
 		"react-native-video": "^5.1.0-alpha8",
 		"react-router-dom": "^5.2.0",
 		"react-scripts": "4.0.0",

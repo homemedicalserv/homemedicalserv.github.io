@@ -1,3 +1,3 @@
-import ServiceItem from "./ServiceItem";
+import { ServiceItemModel } from "./ServiceItemModel";
 
-export default ServiceItem;
+export default ServiceItemModel;

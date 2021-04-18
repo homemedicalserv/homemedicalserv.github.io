@@ -1,0 +1,16 @@
+@import "../../variables";
+
+.UnderConstruction {
+	padding: 30px;
+	text-align: center;
+	color: $color-text-blue;
+
+	.underConstructionImage {
+		width: 400px;
+	}
+
+	.computerIcon {
+		font-size: 250px;
+		line-height: 200px;
+	}
+}

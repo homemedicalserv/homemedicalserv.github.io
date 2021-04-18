@@ -1,0 +1,17 @@
+@import "../../variables";
+.ContactPage {
+	position: relative;
+	min-height: 520px;
+	color: $color-text-blue;
+
+	ul {
+		font-size: 24pt;
+	}
+
+	.fbPage {
+		position: absolute;
+
+		right: 60px;
+		top: 100px;
+	}
+}
