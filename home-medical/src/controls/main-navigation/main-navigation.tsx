@@ -4,10 +4,10 @@ import Logo from "../../assets/logo-full.svg";
 
 function MainNavigation() {
 	var mainLinks = [
-		{ displayName: "Home", url: "/home" },
 		{ displayName: "Servicii", url: "/servicii" },
 		{ displayName: "Produse", url: "/produse" },
 		{ displayName: "Despre noi", url: "/despre-noi" },
+		{ displayName: "Contact", url: "/contact" },
 	];
 
 	var navigationLinks = mainLinks.map((item) => (
@@ -20,10 +20,10 @@ function MainNavigation() {
 
 	return (
 		<div className="main-navigation">
-			<span className="logo-container">
+			<NavLink className="logo-container" to="/home">
 				<img className="logo" src={Logo}></img>
-			</span>
-			<ul className="main-navigation-panel">{navigationLinks}</ul>
+			</NavLink>
+			<ul className="main-navigation-panel light-shadow">{navigationLinks}</ul>
 		</div>
 	);
 }

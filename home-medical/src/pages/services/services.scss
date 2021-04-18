@@ -9,4 +9,13 @@ div.services-page {
 	}
 
 	position: relative;
+	padding: 10px 40px;
+
+	.service-description {
+		min-height: 100px;
+		margin: 130px 5px 20px 175px;
+		padding: 10px 20px;
+		z-index: 5;
+		border-radius: 20px;
+	}
 }

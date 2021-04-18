@@ -1,4 +1,4 @@
 import MainNavigation from "./main-navigation/main-navigation";
-import ServiceItem from "./service-item/service-item";
+import ServiceItemControl from "./service-item/service-item";
 
-export { MainNavigation, ServiceItem };
+export { MainNavigation, ServiceItemControl };

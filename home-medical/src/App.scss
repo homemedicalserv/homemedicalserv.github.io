@@ -31,3 +31,12 @@ html {
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
+
+.frost-background {
+	background-color: $color-transparent-background;
+	backdrop-filter: blur(6px);
+}
+
+.light-shadow {
+	box-shadow: 0 0 7px 2px $color-shadow;
+}
