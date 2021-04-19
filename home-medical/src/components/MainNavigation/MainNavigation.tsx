@@ -22,7 +22,10 @@ const MainNavigation: React.FC = () => {
 	return (
 		<div className={styles.MainNavigation}>
 			<NavLink className={styles.logoContainer} to="/home">
-				<img className={styles.logo} src={Logo}></img>
+				<img
+					className={styles.logo}
+					src={Logo}
+					alt="servicii medicale la domiciliu"></img>
 			</NavLink>
 			<ul className={`${styles.mainNavigationPanel} light-shadow`}>
 				{navigationLinks}

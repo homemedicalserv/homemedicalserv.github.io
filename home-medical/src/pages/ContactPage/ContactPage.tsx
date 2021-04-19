@@ -1,8 +1,6 @@
 import React from "react";
-import Script from "react-load-script";
 import styles from "./ContactPage.module.scss";
 import { FacebookProvider, Page } from "react-facebook";
-import { Link } from "react-router-dom";
 
 class ContactPage extends React.Component {
 	componentDidMount() {}
@@ -24,7 +22,8 @@ class ContactPage extends React.Component {
 						<span className="icofont-facebook"></span>{" "}
 						<a
 							href="https://www.facebook.com/homemedicalservsrl"
-							target="_blank">
+							target="_blank"
+							rel="noreferrer">
 							@homemedicalservsrl
 						</a>
 					</li>

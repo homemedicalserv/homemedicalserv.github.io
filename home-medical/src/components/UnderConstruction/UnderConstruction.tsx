@@ -7,6 +7,7 @@ const UnderConstruction: React.FC = () => (
 		<img
 			src={UnderConstructionImage}
 			className={styles.underConstructionImage}
+			alt="under construction"
 		/>
 
 		<h1>Pagină în construcție!</h1>
