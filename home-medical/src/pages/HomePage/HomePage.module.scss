@@ -1,0 +1,11 @@
+.HomePage {
+	position: relative;
+
+	.videoPlayer {
+		width: 170%;
+		position: absolute;
+		left: -35%;
+		top: -170px;
+		z-index: -10;
+	}
+}
