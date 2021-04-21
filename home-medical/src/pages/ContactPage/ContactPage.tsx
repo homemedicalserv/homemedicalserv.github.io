@@ -35,7 +35,10 @@ class ContactPage extends React.Component {
 
 				<div className={styles.fbPage}>
 					<FacebookProvider appId="868929373664504">
-						<Page href="https://www.facebook.com/gradinalori" tabs="messages" />
+						<Page
+							href="https://www.facebook.com/homemedicalservsrl"
+							tabs="messages"
+						/>
 					</FacebookProvider>
 				</div>
 			</div>
