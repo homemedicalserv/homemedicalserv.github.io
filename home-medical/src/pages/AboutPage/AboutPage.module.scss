@@ -1,1 +1,19 @@
-.AboutPage {}
+@import '../../variables';
+
+.AboutPage {
+	color: $color-text-blue;
+}
+
+.pageBackground {
+	position: relative;
+}
+
+.pageBackgroundImage {
+	position: absolute;
+	width: 200%;
+	height: auto;
+	left: -50%;
+	top: -200px;
+	right: -50%;
+	z-index: -10;
+}
