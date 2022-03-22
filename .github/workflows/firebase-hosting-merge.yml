@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: node -v && npm ci && npm run build
+      - run: node -v 
+      - run: npm ci && npm run build
         working-directory: ./home-medical
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
