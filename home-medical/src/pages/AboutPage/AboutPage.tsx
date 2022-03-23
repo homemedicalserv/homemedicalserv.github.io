@@ -1,5 +1,4 @@
 import React from 'react';
-import { UnderConstruction } from '../../components';
 import styles from './AboutPage.module.scss';
 import BackgroundImage from '../../assets/us.jpg';
 

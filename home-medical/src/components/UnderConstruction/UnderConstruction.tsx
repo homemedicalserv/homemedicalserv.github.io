@@ -1,10 +1,9 @@
 import React from 'react';
 import styles from './UnderConstruction.module.scss';
-//import UnderConstructionImage from "../../assets/under-construction.svg";
 
 const UnderConstruction: React.FC = () => (
 	<div className={styles.UnderConstruction}>
-		<img src="under-construction.svg" className={styles.underConstructionImage} alt="under construction" />
+		<img src="../under-construction.svg" className={styles.underConstructionImage} alt="under construction" />
 
 		<h1>Pagină în construcție!</h1>
 		<p></p>

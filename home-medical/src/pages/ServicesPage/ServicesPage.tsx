@@ -112,6 +112,9 @@ const ServicesPage: React.FC = () => {
 								</p>
 							</div>
 						</Route>
+						<Route path={`${match.path}/dispozitive-medicale`}>
+							<UnderConstruction></UnderConstruction>
+						</Route>
 						<Route exact={true} path={match.path}>
 							{({ match }) => (
 								<CSSTransition in={match != null} timeout={300} classNames="page" unmountOnExit>
