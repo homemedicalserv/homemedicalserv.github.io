@@ -1,15 +1,9 @@
-import React from "react";
-import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
-import "./App.scss";
-import "./fonts/icofont.min.css";
-import { MainNavigation } from "./components/index";
-import {
-	HomePage,
-	ServicesPage,
-	ProductsPage,
-	AboutPage,
-	ContactPage,
-} from "./pages/index";
+import React from 'react';
+import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
+import './App.scss';
+import './fonts/icofont.min.css';
+import { MainNavigation } from './components/index';
+import { HomePage, ServicesPage, ProductsPage, AboutPage, ContactPage } from './pages/index';
 
 function App() {
 	console.log(React.version);
@@ -24,7 +18,7 @@ function App() {
 					<Route path="/servicii">
 						<ServicesPage />
 					</Route>
-					<Route path="/produse">
+					<Route path="/tarife">
 						<ProductsPage />
 					</Route>
 					<Route path="/despre-noi">

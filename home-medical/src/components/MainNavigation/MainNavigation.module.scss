@@ -1,4 +1,4 @@
-@import "../../variables";
+@import '../../variables';
 
 .MainNavigation {
 	list-style-type: none;
@@ -13,11 +13,12 @@
 		display: inline-block;
 		z-index: 10;
 		border-radius: 200px;
-		border: 10px solid $color-border-blue;
-		background-color: #fff;
-		padding: 20px;
+		border: none;
+		background-color: transparent;
+		padding: 0;
 		position: absolute;
-		bottom: -45px;
+		bottom: -30px;
+		left: 40px;
 	}
 
 	.logo {
