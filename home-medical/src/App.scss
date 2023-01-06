@@ -1,16 +1,10 @@
-@import "./variables";
+@import './variables';
+@import './mixins';
 
 :root {
 	--color-text-blue: #0023d1;
 	--color-text-red: #fe0000;
 	--color-border-blue: #6898d1;
-}
-
-.main-container {
-	width: 1260px;
-	text-align: left;
-	margin: auto;
-	position: static;
 }
 
 .background {
@@ -24,7 +18,6 @@
 
 body {
 	background-color: #405060;
-	padding-bottom: 130px;
 }
 
 html {
@@ -33,11 +26,11 @@ html {
 }
 
 .light-shadow {
-	box-shadow: 0 0 7px 2px $color-shadow;
+	@include light-shadow;
 }
 
 .simple-content {
-	margin: -80px 50px 50px 110px;
+	margin: 0 50px 0 100px;
 	padding: 80px 50px 40px 50px;
 	background-color: white;
 	border-radius: 50px;
@@ -45,6 +38,56 @@ html {
 }
 
 .frost-background {
-	background-color: $color-transparent-background;
-	backdrop-filter: blur(6px);
+	@include frost-background;
+}
+
+.main-container {
+	text-align: left;
+	position: relative;
+}
+
+.page-body {
+	padding-bottom: 10px;
+}
+
+@include breakpoint($nondesktop) {
+	.main-container {
+		width: 100%;
+		margin: 0;
+		font-size: 20pt;
+	}
+
+	::-webkit-scrollbar {
+		display: none;
+	}
+
+	.two-column {
+		width: 100%;
+		display: block;
+	}
+
+	.simple-content {
+		margin: 0 0 0 50px;
+	}
+}
+
+@include breakpoint($desktop) {
+	.main-container {
+		width: 1260px;
+		margin: auto;
+	}
+
+	.two-column {
+		width: 50%;
+		display: inline-block;
+		box-sizing: border-box;
+		vertical-align: top;
+
+		&:first-child {
+			padding-right: 25px;
+		}
+		&:nth-child(n + 1) {
+			padding-left: 25px;
+		}
+	}
 }

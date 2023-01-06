@@ -8,9 +8,9 @@ import { HomePage, ServicesPage, ProductsPage, AboutPage, ContactPage } from './
 function App() {
 	console.log(React.version);
 	return (
-		<div className="main-container">
-			<BrowserRouter>
-				<MainNavigation />
+		<BrowserRouter>
+			<MainNavigation />
+			<div className="main-container page-body">
 				<Switch>
 					<Route path="/home">
 						<HomePage />
@@ -31,8 +31,8 @@ function App() {
 						<Redirect to="/home" />
 					</Route>
 				</Switch>
-			</BrowserRouter>
-		</div>
+			</div>
+		</BrowserRouter>
 	);
 }
 

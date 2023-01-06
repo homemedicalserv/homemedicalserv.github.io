@@ -1,47 +1,65 @@
 @import '../../variables';
+@import '../../mixins';
 
 .MainNavigation {
-	list-style-type: none;
-	margin: 30px 10px;
-	text-align: justify;
+	z-index: 20;
 	position: relative;
-	z-index: 10;
+	background-color: $color-menu-background;
 
 	.logoContainer {
-		width: 150px;
-		height: 150px;
-		display: inline-block;
-		z-index: 10;
-		border-radius: 200px;
-		border: none;
-		background-color: transparent;
-		padding: 0;
 		position: absolute;
-		bottom: -30px;
-		left: 40px;
+		display: block;
+		border: none;
+		width: 200px;
+		height: 200px;
+		left: -40px;
+		top: -38px;
+		z-index: 20;
 	}
 
 	.logo {
+		content: url('../../../public/logo-large.svg');
 		width: 100%;
 		height: 100%;
-		position: relative;
-		top: 0px;
+		display: block;
 	}
+}
 
-	.mainNavigationPanel {
+@include breakpoint($nondesktop) {
+	.MainNavigation {
+		@include light-shadow;
+		padding: 0;
+		left: 0;
+		top: 0;
 		right: 0;
-		left: 30px;
-		bottom: 0;
-		margin: 120px 0 0 50px;
-		padding: 25px;
-		text-align: right;
-		border-radius: 50px;
-		background-color: #fff;
+		height: 61px;
 
-		.mainNavigationItem {
+		.menuButton {
 			display: inline-block;
+			position: absolute;
+			z-index: 80;
+			right: 15px;
+			top: 0px;
+			font-size: 40px;
+			color: $color-text-blue;
+			cursor: pointer;
+		}
 
-			a {
+		.mainNavigationPanel {
+			display: block;
+			position: absolute;
+			z-index: 10;
+			top: 0;
+			right: 0;
+			left: 0;
+			height: auto;
+			background-color: $color-menu-background;
+
+			a.mainNavigationItem {
+				display: none;
+				list-style: none;
+				padding: 0;
+				text-align: center;
 				margin: 15px;
 				text-transform: uppercase;
 				font-family: $main-font-family;
@@ -49,18 +67,85 @@
 				color: $color-border-blue;
 				text-decoration: none;
 				font-weight: bold;
-			}
 
-			a:visited {
+				&:visited {
+					color: $color-border-blue;
+					text-decoration: none;
+				}
+				&.active {
+					display: block;
+				}
+
+				&.active,
+				&:active,
+				&:hover {
+					// border-bottom: 3px solid $color-text-red;
+					color: $color-text-blue;
+					letter-spacing: 8px;
+				}
+			}
+		}
+
+		&.open {
+			a.mainNavigationItem {
+				padding: 20px;
+				display: block;
+			}
+		}
+	}
+}
+
+@include breakpoint($desktop) {
+	.MainNavigation {
+		list-style-type: none;
+		margin: 0;
+		text-align: justify;
+		@include light-shadow;
+
+		.menuButton {
+			display: none;
+		}
+
+		.logoContainer {
+			z-index: 40;
+			left: 20px;
+			top: -37px;
+			border: none;
+			background-color: transparent;
+			padding: 0;
+		}
+
+		.mainNavigationPanel {
+			right: 0;
+			left: 30px;
+			bottom: 0;
+			padding: 25px;
+			margin: 0 0 0 30px;
+			text-align: right;
+
+			a.mainNavigationItem {
+				display: inline-block;
+
+				margin: 15px;
+				text-transform: uppercase;
+				font-family: $main-font-family;
+				font-size: 20pt;
 				color: $color-border-blue;
 				text-decoration: none;
-			}
+				font-weight: bold;
+				border-bottom: 3px solid transparent;
 
-			a.active,
-			a:active,
-			a:hover {
-				border-bottom: 3px solid $color-text-red;
-				color: $color-text-blue;
+				&:visited {
+					color: $color-border-blue;
+					text-decoration: none;
+				}
+
+				&.active,
+				&:active,
+				&:hover {
+					border-bottom-color: $color-text-red;
+					color: $color-text-blue;
+				}
 			}
 		}
 	}

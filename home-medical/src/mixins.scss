@@ -1,0 +1,10 @@
+@import '../node_modules/breakpoint-sass/stylesheets/_breakpoint.scss';
+
+@mixin frost-background {
+	background-color: $color-transparent-background;
+	backdrop-filter: blur(20px);
+}
+
+@mixin light-shadow {
+	box-shadow: 0 0 7px 2px $color-shadow;
+}

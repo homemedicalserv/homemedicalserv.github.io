@@ -10,11 +10,11 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   width="500.75735"
-   height="500.75735"
+   width="512.6214"
+   height="513.62134"
    id="svg14"
-   viewBox="0 0 500.75735 500.75735"
-   sodipodi:docname="logo-full.svg"
+   viewBox="0 0 512.62139 513.62133"
+   sodipodi:docname="logo-large.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <metadata
      id="metadata20">
@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -134,12 +134,12 @@
      id="namedview16"
      showgrid="false"
      inkscape:zoom="1"
-     inkscape:cx="146.75731"
-     inkscape:cy="316.16647"
+     inkscape:cx="128.75731"
+     inkscape:cy="348.83314"
      inkscape:window-x="-6"
      inkscape:window-y="-6"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g2890"
+     inkscape:current-layer="svg14"
      inkscape:document-rotation="0"
      inkscape:snap-page="true"
      fit-margin-top="0"
@@ -155,25 +155,45 @@
        originx="107.37869"
        originy="101.37867" />
     <sodipodi:guide
-       position="250.37869,365.37868"
+       position="250.37869,378.24266"
        orientation="1,0"
        id="guide1011" />
     <sodipodi:guide
-       position="-342.6213,250.37868"
+       position="-342.6213,263.24266"
        orientation="0,-1"
        id="guide1013" />
     <sodipodi:guide
-       position="250.37869,250.37868"
+       position="250.37869,263.24266"
        orientation="0.70710678,-0.70710678"
        id="guide1028" />
     <sodipodi:guide
-       position="250.37869,250.37868"
+       position="250.37869,263.24266"
        orientation="-0.70710678,-0.70710678"
        id="guide1030"
        inkscape:label=""
        inkscape:locked="false"
        inkscape:color="rgb(0,0,255)" />
   </sodipodi:namedview>
+  <g
+     id="g2890-4"
+     transform="matrix(1.143002,-2.5749601e-4,0.04856008,0.89050895,759.68633,372.28629)"
+     style="stroke:none;stroke-width:0.978253;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+    <g
+       id="g2900-6"
+       transform="matrix(1.2830871,0.00413747,-0.04507647,1.2610796,337.30822,-170.2761)"
+       style="fill:#e30016;fill-opacity:1;stroke:none;stroke-width:0.793548;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+      <ellipse
+         style="fill:#e30016;fill-opacity:1;stroke:none;stroke-width:0.793566;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+         id="path930-7"
+         cx="-599.52167"
+         cy="-33.887268"
+         transform="matrix(0.99999554,-0.00298664,0.00662368,-0.99997806,0,0)"
+         rx="173.85536"
+         ry="227.07693"
+         inkscape:export-xdpi="134.19673"
+         inkscape:export-ydpi="134.19673" />
+    </g>
+  </g>
   <g
      id="g2890"
      transform="matrix(1.1671111,-2.5888817e-4,0.04958435,0.89532351,968.03359,243.65815)"
@@ -183,13 +203,15 @@
        transform="matrix(1.233807,0.00403507,-0.04414907,1.2315667,126.33289,-34.190342)"
        style="stroke:none;stroke-width:0.793548;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
       <ellipse
-         style="fill:#4161b4;fill-opacity:1;stroke:none;stroke-width:0.793566;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+         style="fill:#334c8d;fill-opacity:1;stroke:none;stroke-width:0.793566;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
          id="path930"
          cx="-599.52167"
          cy="-33.887268"
          transform="matrix(0.99999554,-0.00298664,0.00662368,-0.99997806,0,0)"
          rx="173.85536"
-         ry="227.07693" />
+         ry="227.07693"
+         inkscape:export-xdpi="134.19673"
+         inkscape:export-ydpi="134.19673" />
     </g>
     <ellipse
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.978688;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
@@ -224,9 +246,9 @@
      xml:space="preserve"
      style="font-weight:bold;font-size:42.6667px;line-height:0.5;font-family:Verdana;-inkscape-font-specification:'Verdana Bold';letter-spacing:31.6834px;fill:#000000;fill-opacity:1;stroke-width:1.05611"
      id="text1002"
-     inkscape:transform-center-x="-1.9655033"
-     inkscape:transform-center-y="211.73291"
-     transform="rotate(-9.6126118,191.81209,242.0025)"><textPath
+     inkscape:transform-center-x="-133.90087"
+     inkscape:transform-center-y="130.10235"
+     transform="rotate(-54.022535,237.69214,259.78002)"><textPath
        xlink:href="#path1032"
        id="textPath1034"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:42.6667px;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#fffffc;fill-opacity:1">BRĂILA</textPath></text>
@@ -236,7 +258,18 @@
      id="path8" />
   <path
      style="fill:none;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="m 73.128692,427.62867 c 2.287021,1.9385 4.75395,3.64483 6.882153,5.70404 87.803295,84.95693 245.214855,95.06859 347.617845,-5.70404"
+     d="m 73.128691,427.62867 c 2.287021,1.9385 4.75395,3.64483 6.882153,5.70404 87.803296,84.95693 245.214856,95.06859 347.617846,-5.70404"
      id="path1032"
      sodipodi:nodetypes="csc" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:18.6667px;line-height:1.25;font-family:sans-serif;fill:#334c8d;fill-opacity:1;stroke:none"
+     x="151"
+     y="363"
+     id="text917"><tspan
+       sodipodi:role="line"
+       id="tspan915"
+       x="151"
+       y="363"
+       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:Arial;-inkscape-font-specification:'Arial Italic';fill:#334c8d;fill-opacity:1">Experiența face diferența</tspan></text>
 </svg>

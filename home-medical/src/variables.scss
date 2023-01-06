@@ -1,7 +1,19 @@
+$color-text-dark-blue: #00195a;
 $color-text-blue: #334c8d;
 $color-text-red: #fe0000;
 $color-border-blue: #6898d1;
 $color-shadow: #334c8d60;
-$color-transparent-background: #ccddff80;
+$color-transparent-background: #ccddffa0;
+$color-menu-background: #fff;
 
-$main-font-family: "Trebuchet MS";
+$main-font-family: 'Trebuchet MS';
+
+$breakpoints: (
+	phone: 640px,
+	desktop: 1024px,
+) !default;
+
+$phone: max-width 640px;
+$tablet: 641px 1259px;
+$desktop: 1260px;
+$nondesktop: max-width 1259px;
