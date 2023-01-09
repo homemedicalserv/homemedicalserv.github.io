@@ -28,11 +28,11 @@ const AboutPage: React.FC = () => {
 					</div>
 					<div className="two-column">
 						<p>
-							<img className="lazy-content" src={NoiImage} width="100%"></img>
+							<img className="lazy-content" src={NoiImage} width="100%" alt="home medical serv braila"></img>
 						</p>
 					</div>
 				</div>
-				<AboutItem isOpen={selectedItem == 'MISIUNE'} title="MISIUNE" icon="icofont-dart" selected={setSelectedItem}>
+				<AboutItem isOpen={selectedItem === 'MISIUNE'} title="MISIUNE" icon="icofont-dart" selected={setSelectedItem}>
 					<div className="two-column">
 						<p className="lazy-content-2">
 							Misiunea noastră este prestarea unor servicii medicale de calitate, într-un mediu sigur și confortabil.
@@ -47,10 +47,14 @@ const AboutPage: React.FC = () => {
 						</p>
 					</div>
 					<div className="two-column">
-						<img className="lazy-content-1" src={MisiuneImage} width="100%"></img>
+						<img className="lazy-content-1" src={MisiuneImage} width="100%" alt="home medical serv misiune"></img>
 					</div>
 				</AboutItem>
-				<AboutItem isOpen={selectedItem == 'VIZIUNE'} title="VIZIUNE" icon="icofont-eye-alt" selected={setSelectedItem}>
+				<AboutItem
+					isOpen={selectedItem === 'VIZIUNE'}
+					title="VIZIUNE"
+					icon="icofont-eye-alt"
+					selected={setSelectedItem}>
 					<div className="two-column">
 						<p className="lazy-content-1">
 							Echipa noastră își dorește să inspire încredere și siguranță, prin promovarea bunelor practici medicale
@@ -67,10 +71,10 @@ const AboutPage: React.FC = () => {
 						</p>
 					</div>
 					<div className="two-column">
-						<img className="lazy-content-4" src={ViziuneImage} width="100%"></img>
+						<img className="lazy-content-1" src={ViziuneImage} width="100%" alt="home medical serv viziune"></img>
 					</div>
 				</AboutItem>
-				<AboutItem isOpen={selectedItem == 'VALORI'} title="VALORI" icon="icofont-diamond" selected={setSelectedItem}>
+				<AboutItem isOpen={selectedItem === 'VALORI'} title="VALORI" icon="icofont-diamond" selected={setSelectedItem}>
 					<div className="two-column">
 						<CardItem className="lazy-content-1" icon="icofont-holding-hands" title="Demnitate">
 							<p>

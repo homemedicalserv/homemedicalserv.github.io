@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import styles from './MainNavigation.module.scss';
 import { NavLink } from 'react-router-dom';
-import { BaseSyntheticEvent } from 'react';
 
 const MainNavigation: React.FC = () => {
 	var mainLinks = [
@@ -37,9 +36,9 @@ const MainNavigation: React.FC = () => {
 					<img className={styles.logo} alt="servicii medicale la domiciliu"></img>
 				</NavLink>
 				<div className={styles.mainNavigationPanel}>{navigationLinks}</div>
-				<a className={styles.menuButton} onClick={() => menuButtonClick(false)}>
+				<span className={styles.menuButton} onClick={() => menuButtonClick(false)}>
 					<i className="icofont-navigation-menu"></i>
-				</a>
+				</span>
 			</div>
 		</div>
 	);
