@@ -34,6 +34,13 @@
 		right: 0;
 		height: 61px;
 
+		.logoContainer {
+			width: 100px;
+			height: 100px;
+			left: -20px;
+			top: -20px;
+			z-index: 20;
+		}
 		.menuButton {
 			display: inline-block;
 			position: absolute;

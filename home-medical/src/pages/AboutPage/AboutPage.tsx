@@ -41,7 +41,7 @@ const AboutPage: React.FC = () => {
 							Avem ca obiectiv îmbunătățirea calității vieții pacienților prin prestarea de servicii personalizate.
 						</p>
 						<p className="lazy-content-4">
-							Ingrijirea si transportul celor care beneficiază de serviciile noastre sunt întotdeauna centrate pe
+							Îngrijirea și transportul celor care beneficiază de serviciile noastre, sunt întotdeauna centrate pe
 							nevoile pacientului și au loc la cele mai înalte standarde de competență și profesionalism, așa încât cei
 							care ni se adresează să atingă un nivel optim de sănătate fizică, emoțională și spirituală.
 						</p>
@@ -57,8 +57,8 @@ const AboutPage: React.FC = () => {
 					selected={setSelectedItem}>
 					<div className="two-column">
 						<p className="lazy-content-1">
-							Echipa noastră își dorește să inspire încredere și siguranță, prin promovarea bunelor practici medicale
-							chiar la domiciliul pacientului.{' '}
+							Echipa noastră își dorește să inspire încredere și siguranță, prin promovarea bunelor practici medicale,
+							chiar la domiciliul pacientului.
 						</p>
 						<p className="lazy-content-2">
 							Deoarece suferința și durerea sunt momente dificile în viața pacientului, dorim să-i fim alături printr-o
@@ -83,19 +83,19 @@ const AboutPage: React.FC = () => {
 								înțelege, a le cunoaște problemele și a-i putea ajuta.
 							</p>
 						</CardItem>
-						<CardItem className="lazy-content-3" icon="icofont-heart-beat" title="Dragoste și compasiune">
+
+						<CardItem className="lazy-content-3" icon="icofont-fire-alt" title="Credință">
 							<p>
-								Pentru noi dragostea înseamnă să tratăm cu multă atenție și compasiune pacienții, ca și cum ar face
-								parte din familia noastră. Fiecare pacient este încurajat si ajutat să depășească mai ușor
-								inconvenientele diagnosticului si consiliat in pe durata efectuarii actului terapeutic.
+								Credința aduce pace în minte, împăcare în inimă și nădejde, atât de necesare în procesul vindecării.
 							</p>
 						</CardItem>
-						<CardItem className="lazy-content-5" icon="icofont-fire-alt" title="Credință">
+						<CardItem className="lazy-content-5" icon="icofont-chart-histogram" title="Îmbunătățirea continuă">
 							<p>
-								<i>Dumnezeu</i> este Cel care luminează mintea medicului pentru ca întreaga experiență clinică și
-								științifică să poată deveni utilă în diagnosticarea, tratarea și vindecarea bolnavului. Mai mult, El
-								este Cel care poate vindeca, chiar și atunci când nu mai sunt speranțe de vindecare. Credința aduce pace
-								în minte, împăcare în inimă și nădejde, atât de necesare în procesul vindecării.
+								Suntem preocupați de instruirea constantă a personalului nostru și dezvoltarea fiecărui angajat,
+								întrucât suntem conștienți că instruirea și aprecierea resurselor umane este cheia performanței. Suntem
+								dedicați întru totul pacienților noștri, pe care îi tratăm cu profesionalism, responsabilitate și nu în
+								ultimul rând cu plăcere. Principiile pe care se bazează echipa noastră sunt respectul, aprecierea,
+								încrederea, toleranța și loialitatea.
 							</p>
 						</CardItem>
 					</div>
@@ -103,16 +103,14 @@ const AboutPage: React.FC = () => {
 						<CardItem className="lazy-content-2" icon="icofont-icu" title="Pacientul pe primul loc">
 							<p>
 								Prioritatea noastră este reprezentată de nevoile pacienților noștri și căutăm cele mai bune soluții
-								pentru a le oferi servicii de calitate
+								pentru a le oferi servicii de calitate.
 							</p>
 						</CardItem>
-						<CardItem className="lazy-content-4" icon="icofont-chart-histogram" title="Îmbunătățirea continuă">
+						<CardItem className="lazy-content-4" icon="icofont-heart-beat" title="Dragoste și compasiune">
 							<p>
-								Suntem preocupați de instruirea constantă a personalului nostru și dezvoltarea fiecărui angajat,
-								întrucât suntem conștienți că instruirea și aprecierea resurselor umane este cheia performanței. Suntem
-								dedicați întru totul pacienților noștri, pe care îi tratăm cu profesionalism, responsabilitate și nu în
-								ultimul rând cu plăcere. Principiile pe care se bazează echipa noastră sunt respectul, aprecierea,
-								încrederea, toleranța și loialitatea.
+								Pentru noi dragostea înseamnă să tratăm cu multă atenție și compasiune pacienții, ca și cum ar face
+								parte din familia noastră. Fiecare pacient este încurajat si ajutat să depășească mai ușor
+								inconvenientele diagnosticului si consiliat in pe durata efectuării actului terapeutic.
 							</p>
 						</CardItem>
 						<CardItem className="lazy-content-6" icon="icofont-badge" title="Standarde ridicate de calitate">

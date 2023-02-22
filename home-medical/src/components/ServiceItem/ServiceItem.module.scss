@@ -1,105 +1,154 @@
+@import '../../mixins';
 @import '../../variables';
 .ServiceItem {
-	text-decoration: none;
-	position: relative;
 	display: block;
-	left: 0;
-	top: 0;
 	margin: 30px 30px;
-	color: $color-text-blue;
-	z-index: 10;
-
-	&:visited {
-		color: $color-text-blue;
-	}
+	margin-left: 160px;
+	position: relative;
+	transition: height 2s linear;
+	height: 50px;
 
 	&.active {
-		position: absolute;
-		top: 305px;
-		left: 194px;
-		right: 0;
-		transition: left 2s linear, top 2s linear;
+		height: 0;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	&:nth-of-type(1) .ServiceItemLink.active {
+		top: 325px;
+	}
+	&:nth-of-type(2) .ServiceItemLink.active {
+		top: 217px;
+	}
+	&:nth-of-type(3) .ServiceItemLink.active {
+		top: 136px;
+	}
+	&:nth-of-type(4) .ServiceItemLink.active {
+		top: 57px;
+	}
+
+	.ServiceItemLink {
+		text-decoration: none;
+		position: relative;
+		display: inline-block;
+		left: 0;
+		top: 0;
+		color: $color-text-dark-blue;
+		z-index: 10;
+		transition: left 2s linear, top 2s linear, width 2s ease-in-out, height 2s linear;
+		&:visited {
+			color: $color-text-dark-blue;
+		}
+
+		&.active {
+			position: absolute;
+			z-index: 20;
+			right: 0;
+			left: 25px;
+			animation: collapse 2s 0 normal;
+
+			.icon {
+				width: 112px;
+				height: 112px;
+				left: -75px;
+				top: -35px;
+				transform: scale(1);
+				animation: pulse 3s 5s infinite;
+
+				i {
+					font-size: 80px;
+					top: 22px;
+					left: 25px;
+				}
+			}
+
+			.serviceTitle {
+				font-size: 18pt;
+				right: 0;
+				width: 915px;
+				padding: 20px 30px 20px 70px;
+			}
+		}
 
 		.icon {
-			width: 100px;
-			height: 100px;
-			left: -73px;
-			top: -32px;
-			border-width: 8px;
-			transform: scale(1);
-			animation: pulse 3s 5s infinite;
+			background-image: url('../../../public/icon-frame.svg');
+			background-size: 100%;
+			position: absolute;
+			display: block;
+			padding: 10px;
+			width: 50px;
+			height: 50px;
+			border-radius: 100px;
+			color: $color-text-dark-blue;
+			text-align: center;
+			top: -15px;
+			left: -20px;
+			z-index: 10;
+			transition: left 2s linear, top 2s linear, padding 2s linear, width 2s ease-in-out, height 2s ease-in-out;
 
 			i {
-				font-size: 80px;
-				top: 16px;
-				left: 13px;
+				font-size: 40px;
+				position: absolute;
+				top: 15px;
+				left: 15px;
+				transition: left 2s linear, top 2s linear, font-size 2s ease-in-out;
 			}
 		}
 
 		.serviceTitle {
-			font-size: 24px;
-			right: 0;
-			display: block;
-			padding: 20px 30px 20px 60px;
+			padding: 15px 20px 15px 60px;
+			@include frost-background;
+			@include light-shadow;
+			font-size: 12pt;
+			font-family: $main-font-family;
+			font-weight: bold;
+			border-radius: 50px;
+			display: inline-block;
+			width: 320px;
+			z-index: 9;
+			transition: left 2s linear, top 2s linear, width 2s ease-in-out, height 2s ease-in-out, position 2s linear,
+				font-size 2s ease-in-out;
 		}
-	}
-
-	.icon {
-		position: absolute;
-		display: block;
-		padding: 5px;
-		width: 50px;
-		height: 50px;
-		border-radius: 100px;
-		border: 5px solid $color-border-blue;
-		color: $color-text-blue;
-		text-align: center;
-		top: -15px;
-		left: -20px;
-		z-index: 10;
-
-		i {
-			font-size: 40px;
-			position: absolute;
-			top: 10px;
-			left: 9px;
-		}
-	}
-
-	.serviceTitle {
-		padding: 15px 20px 15px 60px;
-		font-size: 17px;
-		font-family: $main-font-family;
-		font-weight: bold;
-		border-radius: 50px;
-		display: inline-block;
-		z-index: 9;
 	}
 }
 
 @keyframes pulse {
 	0% {
-		transform: scale(0.9);
-		box-shadow: 0 0 0 0 $color-shadow;
-	}
-
-	70% {
 		transform: scale(1);
 		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
 	}
 
-	100% {
+	30% {
 		transform: scale(0.9);
 		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 	}
+
+	100% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
 }
 
-@keyframes shift {
+@keyframes collapse {
 	0% {
-		top: auto;
+		scale: (0);
 	}
 
 	100% {
-		top: 305px;
+		scale: (1);
+	}
+}
+
+@include breakpoint($nondesktop) {
+	.ServiceItem {
+		margin: 30px 0px;
+
+		.ServiceItemLink.active {
+			left: 47px;
+		}
+
+		.pageBackground {
+			left: -900px;
+		}
 	}
 }

@@ -26,10 +26,6 @@
 	}
 }
 
-body {
-	background-color: #114466;
-}
-
 @include breakpoint($nondesktop) {
 	.AboutPage {
 		.placeholder {

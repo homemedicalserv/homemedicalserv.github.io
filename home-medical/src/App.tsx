@@ -3,7 +3,7 @@ import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 import './App.scss';
 import './fonts/icofont.min.css';
 import { MainNavigation } from './components/index';
-import { HomePage, ServicesPage, ProductsPage, AboutPage, ContactPage } from './pages/index';
+import { HomePage, ServicesPage, PricesPage, AboutPage, ContactPage } from './pages/index';
 
 function App() {
 	console.log(React.version);
@@ -19,7 +19,7 @@ function App() {
 						<ServicesPage />
 					</Route>
 					<Route path="/tarife">
-						<ProductsPage />
+						<PricesPage />
 					</Route>
 					<Route path="/despre-noi">
 						<AboutPage />
